@@ -1,0 +1,25 @@
+{
+  "name": "book-list-server",
+  "version": "1.0.0",
+  "description": "Code 301 Book ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/book-app-week-3-co-jf/book-list-server.git"
+  },
+  "keywords": [
+    "book",
+    "301",
+    "demi"
+  ],
+  "author": "jose and cara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/book-app-week-3-co-jf/book-list-server/issues"
+  },
+  "homepage": "https://github.com/book-app-week-3-co-jf/book-list-server#readme"
+}
