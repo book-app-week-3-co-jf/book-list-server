@@ -23,7 +23,7 @@ const CLIENT_URL = process.env.CLIENT_URL;
 app.get('/api/v1/books', (req, res) => res.send('It lives!'));
 // This app.get will need a lot more fleshing out once the database is operational.
 
-app.get('*', (req, res) => res.redirect(CLIENT_URL));
+app.get('*', (req, res) => res.send('It lives!'));
 
 app.listen(PORT, () => console.log(`Server listening on ${PORT}`));
 
