@@ -26,4 +26,3 @@ app.get('/api/v1/books', (req, res) => res.send('It lives!'));
 app.get('*', (req, res) => res.send('It lives!'));
 
 app.listen(PORT, () => console.log(`Server listening on ${PORT}`));
-
